@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gen List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+<header>
+  <div id="header-bg" class="row">
+    <div class="container">
+      <div id="header-main" class="d-flex">
+        <div id="logo" class="d-flex col-lg-2 col-md-2 col-sm-12"> <a href="#"><img class="img-fluid" src="images/Group 3.png"></a> </div>
+        <div id="nav" class="offset-1 col-lg-8 col-md-8 col-sm-12">
+          <div id="navi">
+            <ul>
+              <li class="list-unstyled d-inline-block"><a href="index.html" class="text-decoration-none active">Home</a></li>
+              <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Browse geneList</a></li>
+              <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">About</a></li>
+              <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="prof"  class="list-unstyled col-lg-1 col-md-1 col-sm-12">
+          <ul class="float-end">
+            <li class="list-unstyled"> <a href="Login.html" class="text-decoration-none"><img class="img-fluid" src="images/Ellipse 30 (1).png"></a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+		  <div id="toggle-btn" onclick="navtoggle();">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div id="dashbrd-bg" class="row">
+    <div class="container">
+      <div id="dashbrd-main" class="d-flex">
+        <div id="gen-list" class="col-12">
+          <div id="gen-list-para">
+            <p>TSS4 - DrugMatrix - Toxicogenomic - Toxicogenomic signatures of Head after exposure to oxybutynin (230 mg/kg, 5 days) in the rat</p>
+            <div id="gen-list-btns" class="d-flex">
+              <div id="public-btn"><a href="#">Public</a> </div>
+              <div id="Interventional-btn"><a href="#">Interventional</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tool-dwnld-bg" class="row">
+    <div class="container">
+      <div id="tool-dwnld-main" class="d-flex">
+        <div id="tools-btn"><a href="#" class="d-inline-block ">Tools<img src="images/prime_external-link.png" class="img-fluid"> </a></div>
+        <div id="download-btn"><a href="#" class="d-inline-block">Download<img src="images/ph_download-simple.png" class="img-fluid"></a></div>
+      </div>
+    </div>
+  </div>
+  <div id="sumry-char-bg" class="row">
+    <div class="container">
+      <div id="sumry-char-main" class="d-flex justify-content-between">
+        <div id="summary" class="col-5">
+          <h3>Summary</h3>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p class="col-4" >Organism</p>
+            <div id="sum-img" class="col-2"> <img class="img-fluid" src="images/Rectangle 68.png"> </div>
+            <h4 class="col-5">Rattus Norvegicus</h4>
+          </div>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p class="col-4" >Tissue</p>
+            <div id="sum-img" class="col-2"> <img class="img-fluid" src="images/Rectangle 68 (1).png"> </div>
+            <h4 class="col-5">Heart</h4>
+          </div>
+        </div>
+        <div id="char" class="col-5">
+          <h3>Characteristics</h3>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p  >Experimenal type</p>
+            <h5>
+            Na
+            </p>
+          </div>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p  >Sex</p>
+            <h5>
+            Male
+            </p>
+          </div>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p  >Genaration</p>
+            <h5>
+            F0
+            </p>
+          </div>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p>Developmental Stage</p>
+            <h5>
+            Adulthood
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="info-overview-bg" class="row">
+    <div class="container">
+      <div id="info-overview-main" class="d-flex justify-content-between">
+        <div id="char" class="col-5">
+          <h3>Genomic Signature Information</h3>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p  >Technogy used</p>
+            <h5>
+            Array
+            </p>
+          </div>
+          <div id="sum-cntnt" class="d-flex justify-content-between align-items-baseline">
+            <p  >Platform</p>
+            <h5>
+            GPL1355
+            </p>
+          </div>
+        </div>
+        <div id="char" class="col-5">
+          <div class="d-flex justify-content-between align-items-baseline">
+            <h3>Overview</h3>
+            <div id="no-of-dash">
+              <div class="d-inline-block">
+                <div id="turqoise" class="d-inline-block"></div>
+                <p class="d-inline-block">Up-regulated</p>
+              </div>
+              <div class="d-inline-block">
+                <div class="d-inline-block" id="yellow"></div>
+                <p class="d-inline-block">Down-regulated</p>
+              </div>
+            </div>
+          </div>
+          <div id="overview-grpg" class="d-flex">
+            <div id="views"><img class="img-fluid" src="images/Group 1000009466.png"></div>
+            <div id="grapgh"><img class="img-fluid" src="images/Group 1000009465.png">
+              <div id="months"> <img class="img-fluid" src="images/Group 96.png"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="dashbrd-bg" class="row">
+    <div class="container">
+      <div id="dashbrd-main" class="d-flex">
+        <div id="stats" class="col-12">
+          <h3>Statistical Information</h3>
+          <div id="statistic">
+            <div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-3" >Control Samples</p>
+              <strong class="col-9">3</strong> </div>
+            <div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-3" >Treated Samples</p>
+              <strong class="col-9">6</strong> </div>
+            <div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-3" >Pvalue Cuttoff</p>
+              <strong class="col-9">0.05</strong> </div>
+            <div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-3" >FC Cutoff</p>
+              <strong class="col-9">1.5</strong> </div>
+            <div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-3" >Statistical Processing</p>
+              <strong class="col-9">Vestibulum nulla tempus aliquam sagittis risus eget nibh pharetra tempus. Eu eget tortor est elementum. Arcu vel id vulputate erat tincidunt. Malesuada in faucibus aliquam tempor leo tincidunt egestas hac. Orci massa lobortis id placerat vitae eros ullamcorper. Risus mattis id massa quis. Morbi donec eleifend leo libero purus ultricies. Tincidunt vulputate ut turpis auctor.</strong> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div id="dashbrd-bg" class="row">
+    <div class="container">
+      <div id="dashbrd-main">
+        <div id="assoc-fact">
+			<h2>Associated Factors</h2>
+			<div id="trend-posts" class="d-flex justify-content-between col-lg-6 col-md-8 col-sm-10">
+             <a href="#" class="active">Chemical (1)</a> 
+             <a href="#">Biological (0)</a> 
+             <a href="#">Physical (0)</a> 
+			</div>
+			<h3>Chemical Factor 1</h3>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Chemical</p>
+              <strong class="col-7">oxybutynin</strong> </div>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Route</p>
+              <strong class="col-7">Oral Gavage</strong> </div>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Velhicule</p>
+              <strong class="col-7">Na</strong> </div>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Dose</p>
+              <strong class="col-7">230.0 mg/kg</strong> </div>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Exposure time</p>
+              <strong class="col-7">120.0 hours</strong> </div>
+			<div id="trending-posts" class="d-flex justify-content-between">
+              <p class="col-5" >Exposure frequencies</p>
+              <strong class="col-7">No exposure frequencies provided</strong> </div>
+		  </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+</div>
+	<script type="text/javascript">
+		function navtoggle(){
+		var navbar = document.getElementById("navi");
+		navbar.classList.toggle('show');
+			}
+	</script>
+</body>
+</html>

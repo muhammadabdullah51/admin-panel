@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+  <header>
+    <div id="header-bg" class="row">
+      <div class="container">
+        <div id="header-main" class="d-flex">
+          <div id="logo" class="d-flex col-lg-2 col-md-2 col-sm-12"> <a href="#"><img src="images/Group 3.png"></a> </div>
+          <div id="nav" class="offset-1 col-lg-8 col-md-8 col-sm-12">
+            <div id="navi">
+              <ul>
+                <li class="list-unstyled d-inline-block"><a href="index.html" class="text-decoration-none active">Home</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Browse geneList</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">About</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Documentation</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="last-child"  class="list-unstyled col-lg-1 col-md-1 col-sm-12">
+            <ul class="float-end">
+              <li class="list-unstyled"> <a href="Login.html" class="text-decoration-none">Login</a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+			<div id="toggle-btn" onclick="navtoggle();">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div id="home-banner-bg" class="row">
+      <div class="container">
+        <div id="home-banner-main" class="d-flex">
+          
+          <div id="login-img" class="col-lg-5 col-md-5 col-sm-12"> <img src="images/Group 1000009533 (1).png" class="img-fluid"> </div>
+		<div id="login-form" class="offset-1 col-lg-6 col-md-6 col-sm-12">
+			<h1>Welcome Back!</h1>
+			<form>
+				<h2>Your Email</h2>
+				<input type="email" placeholder="Email" >
+				<h2>Your Password</h2>
+				<input type="password" placeholder="Password" >
+			</form>
+			<div id="lgn-btn"><a href="#"> Login</a></div>
+			<div id="frgt-pw"><span>Don’t have a account?<strong><a href="#">Forgot password?</a></strong></span></div>
+			</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+	<script type="text/javascript">
+		function navtoggle(){
+		var navbar = document.getElementById("navi");
+		navbar.classList.toggle('show');
+			}
+	</script>
+</body>
+</html>

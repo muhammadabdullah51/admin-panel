@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Dash</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+  <header>
+    <div id="header-bg" class="row">
+      <div class="container">
+        <div id="header-main" class="d-flex">
+          <div id="logo" class="d-flex col-lg-2 col-md-2 col-sm-12"> <a href="#"><img class="img-fluid" src="images/Group 3.png"></a> </div>
+          <div id="nav" class="offset-1 col-lg-8 col-md-8 col-sm-12">
+            <div id="navi">
+              <ul>
+                <li class="list-unstyled d-inline-block"><a href="index.html" class="text-decoration-none active">Home</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Browse geneList</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">About</a></li>
+                <li class="list-unstyled d-inline-block"><a href="#" class="text-decoration-none">Documentation</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="prof"  class="list-unstyled col-lg-1 col-md-1 col-sm-12">
+            <ul class="float-end">
+              <li class="list-unstyled"> <a href="Login.html" class="text-decoration-none"><img class="img-fluid" src="images/Ellipse 30 (1).png"></a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+			<div id="toggle-btn" onclick="navtoggle();">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div id="dashbrd-bg" class="row">
+      <div class="container">
+        <div id="dashbrd-main" class="d-flex">
+			
+          <div id="sidebar" class="col-lg-2 col-md-2 col-sm-2"> <a href="dashboard.html" ><img class="img-fluid" src="images/Vector (2).png" > <span> Dashboard</span></a> <a href="my dash.html" class="active"><img class="img-fluid" src="images/dash (2).png" ><span> My Dash</span></a> <a href="my list.html"><img class="img-fluid" src="images/Vector (2).png" > <span>My List</span></a>
+            <div id="prof-name" class="align-item-center"> <img class="img-fluid" src="images/Ellipse 30.png" class="img-fluid">
+              <h6>Walter White</h6>
+              <a href="Login.html" >Logout </a> </div>
+          </div>
+          <div id="my-dash" class="col-10">
+            <div id="crt-btns-main" class="d-flex justify-content-end">
+              <div id="crt-gen" > <a href="#"><img class="img-fluid" src="images/Group 49.png">Create New</a> </div>
+            </div>
+            <div id="my-dash-right" class="col-lg-9 col-md-9 col-sm-9">
+              <table id="attributes" class="d-flex justify-content-between">
+				  <tbody>
+				  <tr class="d-flex justify-content-between heading">
+                <th class="col-2">ID</th>
+                <th class="col-2">Name</th>
+                <th class="col-3">Created By</th>
+                <th class="col-2">Action</th>
+					</tr>
+              
+				<tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Ut suscipit</td>
+                <td class="col-2">Quis placerat</td>
+                <td class="col-3">Lacus consectetur</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+              <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Nulla habitant</td>
+                <td class="col-2">Tellus risus</td>
+                <td class="col-3">Scelerisque nulla</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+				
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Adipiscing dict</td>
+                <td class="col-2">Semper at</td>
+                <td class="col-3">Condimentum facilisi</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Ac justo</td>
+                <td class="col-2">Nisl adipiscing</td>
+                <td class="col-3">Ullamcorper sed</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Eu nisl</td>
+                <td class="col-2">Hendrerit ut</td>
+                <td class="col-3">Orci felis</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Nibh urna</td>
+                <td class="col-2">Est id</td>
+                <td class="col-3">Diam sapien</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Tellus imperdiet</td>
+                <td class="col-2">Phasellus augue</td>
+                <td class="col-3">Consequat sem</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  <tr id="trending-posts" class="d-flex justify-content-between">
+                <td class="col-2" >Et semper</td>
+                <td class="col-2">Dui fames</td>
+                <td class="col-3">Pretium est</td>
+                <td id="my-dash-btns" class="col-2 d-flex justify-content-start"> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 54.png"></a></div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 55.png"></a> </div> 
+					<div id="my-dash-btn"><a href="#"><img class="img-fluid" src="images/Group 56.png"></a> </div> </td>
+              </tr>
+					  
+				
+				</tbody>
+			</table>
+				
+				
+				
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+	<script type="text/javascript">
+		function navtoggle(){
+		var navbar = document.getElementById("navi");
+		navbar.classList.toggle('show');
+			}
+		function dashtoggle(){
+		var sidebar = document.getElementById("sidebar");
+		sidebar.classList.toggle('show');
+			}
+	</script>
+</body>
+</html>
